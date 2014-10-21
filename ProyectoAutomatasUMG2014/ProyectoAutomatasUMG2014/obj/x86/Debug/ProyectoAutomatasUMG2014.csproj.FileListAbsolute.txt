@@ -1,0 +1,20 @@
+D:\UMG\2014\4to. Cíclo\Lenguajes Formales y Autómatas\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\bin\Debug\ProyectoAutomatasUMG2014.exe
+D:\UMG\2014\4to. Cíclo\Lenguajes Formales y Autómatas\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\bin\Debug\ProyectoAutomatasUMG2014.pdb
+D:\UMG\2014\4to. Cíclo\Lenguajes Formales y Autómatas\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.exe
+D:\UMG\2014\4to. Cíclo\Lenguajes Formales y Autómatas\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.pdb
+C:\Users\usuario\Desktop\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\bin\Debug\ProyectoAutomatasUMG2014.exe
+C:\Users\usuario\Desktop\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\bin\Debug\ProyectoAutomatasUMG2014.pdb
+C:\Users\usuario\Desktop\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.exe
+C:\Users\usuario\Desktop\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.pdb
+C:\Users\Administrador\Desktop\Version 3\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.exe
+C:\Users\Administrador\Desktop\Version 3\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.pdb
+C:\Users\Administrador\Desktop\Version 3\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\bin\Debug\ProyectoAutomatasUMG2014.exe
+C:\Users\Administrador\Desktop\Version 3\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\bin\Debug\ProyectoAutomatasUMG2014.pdb
+C:\Users\Administrador\Desktop\Version 3\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Proyecto Automatas - UMG 2014 FASE 1\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.exe
+C:\Users\Administrador\Desktop\Proyecto Automatas - UMG 2014 FASE 1\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.pdb
+C:\Users\Administrador\Desktop\Proyecto Automatas - UMG 2014 FASE 1\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\bin\Debug\ProyectoAutomatasUMG2014.exe
+C:\Users\Administrador\Desktop\Proyecto Automatas - UMG 2014 FASE 1\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\bin\Debug\ProyectoAutomatasUMG2014.pdb
+C:\Users\Administrador\Desktop\Proyecto Automatas - UMG 2014 FASE 1\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Dropbox\PROYECTOS\UMG\2014\Lenguajes Formales y Autómatas\Proyecto Automatas - UMG 2014 FASE 1\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.exe
+C:\Users\Administrador\Dropbox\PROYECTOS\UMG\2014\Lenguajes Formales y Autómatas\Proyecto Automatas - UMG 2014 FASE 1\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.pdb
