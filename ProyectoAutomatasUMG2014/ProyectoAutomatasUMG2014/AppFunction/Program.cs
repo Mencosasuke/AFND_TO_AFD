@@ -67,19 +67,29 @@ namespace ProyectoAutomatasUMG2014.AppFunction
             List<TransicionAFD> funcionesTransicionAutomata = automata.ConvertirAFNaAFD(estadosAutomataND, simbolosAutomataND, estadoInicialAutomataND, estadosAceptacionAutomataND, listaFuncTransicionAutomataND, ref nuevosEstadosAutomata);
 
             // Imprime en pantalla las funciones de transición generadas del Autómata Finito Determinista.
-            Console.WriteLine("Estados\t\t Simbolos\t\tComponentes\n\r");
-            foreach(TransicionAFD estado in nuevosEstadosAutomata)
+
+
+            //Console.WriteLine("Estados\t\t Simbolos\t\tComponentes\n\r");
+            String cabeceraEstados = String.Empty;
+            foreach (String estado in simbolosAutomataND)
+            {
+                cabeceraEstados += estado + "  ";
+            }
+            String cabecera = String.Format("Estados\t  {0}\tComponentes\n\r", cabeceraEstados);
+            Console.WriteLine(cabecera);
+            foreach (TransicionAFD estado in nuevosEstadosAutomata)
             {
                 String transiciones = String.Empty;
-                transiciones = estado.estado + "\t";
+                transiciones = "   " + estado.estado + "\t  ";
                 foreach (TransicionAFD transicion in funcionesTransicionAutomata.Where(f => f.estado == estado.estado).ToList())
                 {
-                    transiciones += "con " + transicion.simbolo + " -> " + transicion.proximoEstado + "\t";
+                    transiciones += transicion.proximoEstado + "  ";
                 }
+                transiciones += "\t";
                 String compEstados = String.Empty;
                 foreach (String e in estado.componentes)
                 {
-                    if(String.IsNullOrEmpty(compEstados))
+                    if (String.IsNullOrEmpty(compEstados))
                     {
                         compEstados += e;
                     }
