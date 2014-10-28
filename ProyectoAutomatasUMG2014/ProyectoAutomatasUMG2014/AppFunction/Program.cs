@@ -49,7 +49,7 @@ namespace ProyectoAutomatasUMG2014.AppFunction
             List<String> simbolosAutomataND = regexHelper.getValues(contenidoArchivo, @"F:\{(?<valores>[\d\w]+,?)+\}");
             String estadoInicialAutomataND = regexHelper.getValues(contenidoArchivo, @"i:(?<valores>[\d\w]+)A").FirstOrDefault();
             List<String> estadosAceptacionAutomataND = regexHelper.getValues(contenidoArchivo, @"A:\{(?<valores>[\d\w]+,?)+\}");
-            List<String> funcionesTransicionAutomataND = regexHelper.getValues(contenidoArchivo, @"W:\{(\((?<valores>[\d\w]+,?)+\),?)+\}");
+            List<String> funcionesTransicionAutomataND = regexHelper.getValues(contenidoArchivo, @"(w|W):\{(\((?<valores>[\d\w]+,?)+\),?)+\}");
             
             List<Transicion> listaFuncTransicionAutomataND = new List<Transicion>();
             size = funcionesTransicionAutomataND.Count / 3;
