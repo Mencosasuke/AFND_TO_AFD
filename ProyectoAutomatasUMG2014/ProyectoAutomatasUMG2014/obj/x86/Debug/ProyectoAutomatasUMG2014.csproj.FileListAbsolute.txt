@@ -18,3 +18,5 @@ C:\Users\Administrador\Desktop\Proyecto Automatas - UMG 2014 FASE 1\ProyectoAuto
 C:\Users\Administrador\Desktop\Proyecto Automatas - UMG 2014 FASE 1\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.csprojResolveAssemblyReference.cache
 C:\Users\Administrador\Dropbox\PROYECTOS\UMG\2014\Lenguajes Formales y Autómatas\Proyecto Automatas - UMG 2014 FASE 1\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.exe
 C:\Users\Administrador\Dropbox\PROYECTOS\UMG\2014\Lenguajes Formales y Autómatas\Proyecto Automatas - UMG 2014 FASE 1\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.pdb
+C:\Users\Administrador\Desktop\AFND_TO_AFD\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.exe
+C:\Users\Administrador\Desktop\AFND_TO_AFD\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.pdb
