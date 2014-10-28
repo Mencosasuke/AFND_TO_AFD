@@ -68,8 +68,7 @@ namespace ProyectoAutomatasUMG2014.AppFunction
 
             // Imprime en pantalla las funciones de transición generadas del Autómata Finito Determinista.
 
-
-            //Console.WriteLine("Estados\t\t Simbolos\t\tComponentes\n\r");
+            // Arma el string de la cabecera para mostrarse, incluyendo el listado de elementos del alfabeto.
             String cabeceraEstados = String.Empty;
             foreach (String estado in simbolosAutomataND)
             {
@@ -77,16 +76,23 @@ namespace ProyectoAutomatasUMG2014.AppFunction
             }
             String cabecera = String.Format("Estados\t  {0}\tComponentes\n\r", cabeceraEstados);
             Console.WriteLine(cabecera);
+
+            // Recorre cada una de las funciones de transición del nuevo AFD, concatenando el estado, hacia donde
+            // se dirige con cada elemento del alfabeto y la composición de subestados de cada uno de los nuevos estados.
             foreach (TransicionAFD estado in nuevosEstadosAutomata)
             {
                 String transiciones = String.Empty;
                 transiciones = "   " + estado.estado + "\t  ";
+                
+                // Concatena cada uno de los estados destino para cada elemento del alfabeto.
                 foreach (TransicionAFD transicion in funcionesTransicionAutomata.Where(f => f.estado == estado.estado).ToList())
                 {
                     transiciones += transicion.proximoEstado + "  ";
                 }
                 transiciones += "\t";
                 String compEstados = String.Empty;
+                
+                // Arma la composición de subestados para cada uno de los nuevos estados del AFD.
                 foreach (String e in estado.componentes)
                 {
                     if (String.IsNullOrEmpty(compEstados))
@@ -98,6 +104,8 @@ namespace ProyectoAutomatasUMG2014.AppFunction
                         compEstados += "," + e;
                     }
                 }
+
+                // Si el estado es un estado de aceptación, lo indica a la par.
                 transiciones += compEstados;
                 if (estado.aceptacion)
                 {
