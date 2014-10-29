@@ -69,6 +69,11 @@ namespace ProyectoAutomatasUMG2014.AppFunction
                     listaEstados = Mueve(estadoActual, simbolo, listaFuncTransicionAutomataND);
                     listaEstados = CerraduraEpsilon(listaEstados, listaFuncTransicionAutomataND, listaEstados.Count, 0);
 
+                    if (listaEstados.Count == 0)
+                    {
+                        listaEstados.Add("-Vacio-");
+                    }
+
                     // Se verifica si el posible nuevo estado encontrado existe en la tabla de nuevos estados del AFD
                     TransicionAFD newTrans;
                     bool flagExists = false;
