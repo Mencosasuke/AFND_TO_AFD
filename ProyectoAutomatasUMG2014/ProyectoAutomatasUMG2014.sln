@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoAutomatasUMG2014", "AFNDTest\ProyectoAutomatasUMG2014.csproj", "{6903DE85-4CCF-496D-AE5A-9C2A3C89A40E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoAutomatasUMG2014", "ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014.csproj", "{6903DE85-4CCF-496D-AE5A-9C2A3C89A40E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

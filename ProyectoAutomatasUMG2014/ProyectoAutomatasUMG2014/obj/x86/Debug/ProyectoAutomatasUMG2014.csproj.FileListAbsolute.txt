@@ -6,3 +6,5 @@ C:\Users\usuario\Desktop\AFNDTest\AFNDTest\obj\x86\Debug\ProyectoAutomatasUMG.ex
 C:\Users\usuario\Desktop\AFNDTest\AFNDTest\obj\x86\Debug\ProyectoAutomatasUMG.pdb
 C:\Users\usuario\Desktop\AFNDTest\AFNDTest\obj\x86\Debug\ProyectoAutomatasUMG.PrincipalWindow.resources
 C:\Users\usuario\Desktop\AFNDTest\AFNDTest\obj\x86\Debug\ProyectoAutomatasUMG2014.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\AFNDTest\AFND_TO_AFD\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG.exe
+C:\Users\usuario\Desktop\AFNDTest\AFND_TO_AFD\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG.pdb
