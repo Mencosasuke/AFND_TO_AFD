@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using ProyectoAutomatasUMG2014.Classes;
 
-using ProyectoAutomatasUMG.Clases;
-
-namespace ProyectoAutomatasUMG.AppFunction
+namespace ProyectoAutomatasUMG2014.AppFunction
 {
     class Automata
     {
@@ -18,7 +17,7 @@ namespace ProyectoAutomatasUMG.AppFunction
         /// Indice del Array STATUS_VALUES, para ubicar cual debe ser el siguiente nuevo estado durante la generación del AFD.
         /// </summary>
         public int STATUS_INDEX = 0;
-
+        
         /// <summary>
         /// Inicializa el proceso para generar el AFD a partir del AFN ó AFN-E.
         /// </summary>
@@ -29,7 +28,7 @@ namespace ProyectoAutomatasUMG.AppFunction
         /// <param name="listaFuncTransicionAutomataND">Colección de objetos tipo Transición que contienen las funciones de transición</param>
         public List<TransicionAFD> ConvertirAFNaAFD(List<String> estadosAutomataND, List<String> simbolosAutomataND, String estadoInicialAutomataND, List<String> estadosAceptacionAutomataND, List<Transicion> listaFuncTransicionAutomataND, ref List<TransicionAFD> funcionesTransicionAFD)
         {
-
+            
             List<TransicionAFD> nuevosEstadosAutomata = new List<TransicionAFD>();
             List<TransicionAFD> funcionesTransicionAutomata = new List<TransicionAFD>();
             List<String> coleccionEstados = new List<String>();
@@ -43,9 +42,9 @@ namespace ProyectoAutomatasUMG.AppFunction
             newTransicion.componentes = coleccionEstados;
             newTransicion.marca = false;
             newTransicion.aceptacion = false;
-            foreach (String estado in newTransicion.componentes)
+            foreach(String estado in newTransicion.componentes)
             {
-                if (estadosAceptacionAutomataND.Contains(estado))
+                if(estadosAceptacionAutomataND.Contains(estado))
                 {
                     newTransicion.aceptacion = true;
                     break;
@@ -131,10 +130,10 @@ namespace ProyectoAutomatasUMG.AppFunction
                     }
                 }
                 estadosSinMarcar = nuevosEstadosAutomata.Where(q => q.marca == false).ToList();
-            } while (estadosSinMarcar.Count > 0);
-
+            }while(estadosSinMarcar.Count > 0);
+            
             funcionesTransicionAFD = nuevosEstadosAutomata;
-
+            
             return funcionesTransicionAutomata;
         }
 
@@ -150,7 +149,7 @@ namespace ProyectoAutomatasUMG.AppFunction
         {
 
             int newIndex = index;
-
+            
             // Recorre todas las funciones de transición que se movilizan con Epsilon con cada estado de la colección.
             for (int i = index; i < cont; i++)
             {
@@ -158,12 +157,12 @@ namespace ProyectoAutomatasUMG.AppFunction
                 {
                     //if (trans.estado.Equals(coleccionEstados[i]) && trans.simbolo.Equals("e") && !coleccionEstados.Contains(trans.proximoEstado))
                     //{
-                    coleccionEstados.Add(trans.proximoEstado);
+                        coleccionEstados.Add(trans.proximoEstado);
                     //}
                 }
                 newIndex = i + 1;
             }
-
+            
             // Si se añadieron nuevos estados, se vuelve a llamar a esta función para verificar si también se movilizan con epsilon.
             int newCont = coleccionEstados.Count;
             if (newCont > cont)

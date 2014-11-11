@@ -1,0 +1,7 @@
+C:\Users\usuario\Desktop\AFNDTest\AFNDTest\bin\Debug\AFNDTest.exe
+C:\Users\usuario\Desktop\AFNDTest\AFNDTest\bin\Debug\AFNDTest.pdb
+C:\Users\usuario\Desktop\AFNDTest\AFNDTest\obj\x86\Debug\AFNDTest.Form1.resources
+C:\Users\usuario\Desktop\AFNDTest\AFNDTest\obj\x86\Debug\AFNDTest.Properties.Resources.resources
+C:\Users\usuario\Desktop\AFNDTest\AFNDTest\obj\x86\Debug\AFNDTest.csproj.GenerateResource.Cache
+C:\Users\usuario\Desktop\AFNDTest\AFNDTest\obj\x86\Debug\AFNDTest.exe
+C:\Users\usuario\Desktop\AFNDTest\AFNDTest\obj\x86\Debug\AFNDTest.pdb

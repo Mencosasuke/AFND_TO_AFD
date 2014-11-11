@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoAutomatasUMG2014", "ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014.csproj", "{F854F6CA-7367-4A2C-BEC8-E0E608331641}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoAutomatasUMG2014", "AFNDTest\ProyectoAutomatasUMG2014.csproj", "{6903DE85-4CCF-496D-AE5A-9C2A3C89A40E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F854F6CA-7367-4A2C-BEC8-E0E608331641}.Debug|x86.ActiveCfg = Debug|x86
-		{F854F6CA-7367-4A2C-BEC8-E0E608331641}.Debug|x86.Build.0 = Debug|x86
-		{F854F6CA-7367-4A2C-BEC8-E0E608331641}.Release|x86.ActiveCfg = Release|x86
-		{F854F6CA-7367-4A2C-BEC8-E0E608331641}.Release|x86.Build.0 = Release|x86
+		{6903DE85-4CCF-496D-AE5A-9C2A3C89A40E}.Debug|x86.ActiveCfg = Debug|x86
+		{6903DE85-4CCF-496D-AE5A-9C2A3C89A40E}.Debug|x86.Build.0 = Debug|x86
+		{6903DE85-4CCF-496D-AE5A-9C2A3C89A40E}.Release|x86.ActiveCfg = Release|x86
+		{6903DE85-4CCF-496D-AE5A-9C2A3C89A40E}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

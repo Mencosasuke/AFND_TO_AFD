@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{6903DE85-4CCF-496D-AE5A-9C2A3C89A40E}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <ProjectGuid>{F854F6CA-7367-4A2C-BEC8-E0E608331641}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ProyectoAutomatasUMG</RootNamespace>
-    <AssemblyName>ProyectoAutomatasUMG</AssemblyName>
+    <RootNamespace>ProyectoAutomatasUMG2014</RootNamespace>
+    <AssemblyName>ProyectoAutomatasUMG2014</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -36,54 +36,22 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Deployment" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppFunction\Automata.cs" />
-    <Compile Include="Clases\Transicion.cs" />
-    <Compile Include="Clases\TransicionAFD.cs" />
-    <Compile Include="PrincipalWindow.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PrincipalWindow.Designer.cs">
-      <DependentUpon>PrincipalWindow.cs</DependentUpon>
-    </Compile>
     <Compile Include="AppFunction\Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\Transicion.cs" />
+    <Compile Include="Classes\TransicionAFD.cs" />
     <Compile Include="Helpers\RegexHelper.cs" />
-    <EmbeddedResource Include="PrincipalWindow.resx">
-      <DependentUpon>PrincipalWindow.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\info-icon.png" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

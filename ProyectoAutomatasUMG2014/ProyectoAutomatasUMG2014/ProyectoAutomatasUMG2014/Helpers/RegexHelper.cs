@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace ProyectoAutomatasUMG
+namespace ProyectoAutomatasUMG2014.Helpers
 {
     class RegexHelper
     {
