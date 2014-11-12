@@ -8,3 +8,11 @@ C:\Users\usuario\Desktop\AFNDTest\AFNDTest\obj\x86\Debug\ProyectoAutomatasUMG.Pr
 C:\Users\usuario\Desktop\AFNDTest\AFNDTest\obj\x86\Debug\ProyectoAutomatasUMG2014.csprojResolveAssemblyReference.cache
 C:\Users\usuario\Desktop\AFNDTest\AFND_TO_AFD\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG.exe
 C:\Users\usuario\Desktop\AFNDTest\AFND_TO_AFD\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG.pdb
+C:\Users\Administrador\Desktop\AFND_TO_AFD\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG.exe
+C:\Users\Administrador\Desktop\AFND_TO_AFD\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG.pdb
+C:\Users\Administrador\Desktop\AFND_TO_AFD\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\bin\Debug\ProyectoAutomatasUMG.exe
+C:\Users\Administrador\Desktop\AFND_TO_AFD\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\bin\Debug\ProyectoAutomatasUMG.pdb
+C:\Users\Administrador\Desktop\AFND_TO_AFD\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\AFND_TO_AFD\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG.PrincipalWindow.resources
+C:\Users\Administrador\Desktop\AFND_TO_AFD\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG.Properties.Resources.resources
+C:\Users\Administrador\Desktop\AFND_TO_AFD\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.csproj.GenerateResource.Cache

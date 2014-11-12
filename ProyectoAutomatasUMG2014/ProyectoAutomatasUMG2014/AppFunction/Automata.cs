@@ -115,7 +115,7 @@ namespace ProyectoAutomatasUMG.AppFunction
                         newTrans2.simbolo = simbolo;
                         newTrans2.proximoEstado = newTrans.estado;
                         newTrans2.componentes = estadoActual.componentes;
-                        newTrans2.aceptacion = aceptacion;
+                        newTrans2.aceptacion = estadoActual.aceptacion;
                         funcionesTransicionAutomata.Add(newTrans2);
                     }
                     else
