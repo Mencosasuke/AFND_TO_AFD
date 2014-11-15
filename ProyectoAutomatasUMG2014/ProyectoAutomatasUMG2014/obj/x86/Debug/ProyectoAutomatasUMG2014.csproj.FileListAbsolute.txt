@@ -16,3 +16,11 @@ C:\Users\Administrador\Desktop\AFND_TO_AFD\ProyectoAutomatasUMG2014\ProyectoAuto
 C:\Users\Administrador\Desktop\AFND_TO_AFD\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG.PrincipalWindow.resources
 C:\Users\Administrador\Desktop\AFND_TO_AFD\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG.Properties.Resources.resources
 C:\Users\Administrador\Desktop\AFND_TO_AFD\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.csproj.GenerateResource.Cache
+D:\UMG\2014\4to. Cíclo\Lenguajes Formales y Autómatas\Proyecto Automatas - UMG 2014 FASE FINAL\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG.exe
+D:\UMG\2014\4to. Cíclo\Lenguajes Formales y Autómatas\Proyecto Automatas - UMG 2014 FASE FINAL\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG.pdb
+D:\UMG\2014\4to. Cíclo\Lenguajes Formales y Autómatas\Proyecto Automatas - UMG 2014 FASE FINAL\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\bin\Debug\ProyectoAutomatasUMG.exe
+D:\UMG\2014\4to. Cíclo\Lenguajes Formales y Autómatas\Proyecto Automatas - UMG 2014 FASE FINAL\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\bin\Debug\ProyectoAutomatasUMG.pdb
+D:\UMG\2014\4to. Cíclo\Lenguajes Formales y Autómatas\Proyecto Automatas - UMG 2014 FASE FINAL\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.csprojResolveAssemblyReference.cache
+D:\UMG\2014\4to. Cíclo\Lenguajes Formales y Autómatas\Proyecto Automatas - UMG 2014 FASE FINAL\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG.PrincipalWindow.resources
+D:\UMG\2014\4to. Cíclo\Lenguajes Formales y Autómatas\Proyecto Automatas - UMG 2014 FASE FINAL\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG.Properties.Resources.resources
+D:\UMG\2014\4to. Cíclo\Lenguajes Formales y Autómatas\Proyecto Automatas - UMG 2014 FASE FINAL\ProyectoAutomatasUMG2014\ProyectoAutomatasUMG2014\obj\x86\Debug\ProyectoAutomatasUMG2014.csproj.GenerateResource.Cache

@@ -108,7 +108,7 @@ namespace ProyectoAutomatasUMG
                 foreach (TransicionAFD transicion in funcionesTransicionAutomata.Where(f => f.estado == estado.estado).ToList())
                 {
                     elementosTabla.Add(transicion.proximoEstado);
-                    AFDFuncionesTransicion += String.Format(",({0},{1},{2})", transicion.estado, transicion.simbolo, transicion.proximoEstado);
+                    AFDFuncionesTransicion += System.Environment.NewLine + String.Format("\t,({0},{1},{2})", transicion.estado, transicion.simbolo, transicion.proximoEstado);
                 }
                 String compEstados = String.Empty;
 
@@ -155,7 +155,7 @@ namespace ProyectoAutomatasUMG
             AFDestados = String.Format("Q:\t{{{0}}}", AFDestados);
             AFDAceptacion = AFDAceptacion.Remove(0, 1);
             AFDAceptacion = String.Format("A:\t{{{0}}}", AFDAceptacion);
-            AFDFuncionesTransicion = AFDFuncionesTransicion.Remove(0, 1);
+            AFDFuncionesTransicion = AFDFuncionesTransicion.Remove(1, 3);
             AFDFuncionesTransicion = String.Format("W:\t{{{0}}}", AFDFuncionesTransicion);
             foreach(String simbolo in simbolosAutomataND)
             {
@@ -178,6 +178,11 @@ namespace ProyectoAutomatasUMG
             this.txtCadena.Enabled = true;
         }
 
+        /// <summary>
+        /// Busca el archivo deseado y carga su contenido, arreglandolo para poder ser procesado por el programa.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnSearch_Click(object sender, EventArgs e)
         {
             errorProvider1.Clear();
@@ -217,6 +222,12 @@ namespace ProyectoAutomatasUMG
             catch { }
         }
 
+        /// <summary>
+        /// Evento click del boton para comparar la cadena. Recibe el String de la cadena ingresada y llama al metodo encargado de validar
+        /// si la cadena es de aceptación o no. Imprime el resultado en un label.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnCompCadena_Click(object sender, EventArgs e)
         {
             if (this.funcionesTransicionAutomata == null)
@@ -225,17 +236,10 @@ namespace ProyectoAutomatasUMG
                 this.lblResultado.Text = "";
                 errorProvider1.SetError(this.txtCadena, "Debe generar un AFD.");
             }
-            //else if(String.IsNullOrEmpty(this.txtCadena.Text))
-            //{
-            //    errorProvider1.Clear();
-            //    this.lblResultado.Text = "";
-            //    errorProvider1.SetError(this.txtCadena, "Debe ingresar una cadena.");
-            //}
             else
             {
                 errorProvider1.Clear();
                 String contenidoCadenaValidar = this.txtCadena.Text.Trim().Replace(@"\s", "");
-                //List<String> cadenaParaValidar = this.txtCadena.Text.Split("".ToCharArray(), StringSplitOptions.) .ToList();
                 TransicionAFD status = new TransicionAFD();
                 status = this.validarCadena(contenidoCadenaValidar, status);
                 if(status != null && nuevosEstadosAutomata.Where(s => s.estado == status.proximoEstado).FirstOrDefault().aceptacion)
@@ -307,6 +311,11 @@ namespace ProyectoAutomatasUMG
             }
 
             return status;
+        }
+
+        private void txtCadena_TextChanged(object sender, EventArgs e)
+        {
+            this.btnCompCadena_Click(sender, e);
         }
     }
 }

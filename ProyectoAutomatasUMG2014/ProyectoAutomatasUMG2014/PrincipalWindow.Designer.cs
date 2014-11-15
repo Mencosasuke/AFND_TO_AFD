@@ -68,20 +68,22 @@
             // txtAFND
             // 
             this.txtAFND.BackColor = System.Drawing.Color.Snow;
-            this.txtAFND.Enabled = false;
             this.txtAFND.Location = new System.Drawing.Point(12, 61);
             this.txtAFND.Multiline = true;
             this.txtAFND.Name = "txtAFND";
+            this.txtAFND.ReadOnly = true;
+            this.txtAFND.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtAFND.Size = new System.Drawing.Size(295, 290);
             this.txtAFND.TabIndex = 2;
             // 
             // txtAFD
             // 
             this.txtAFD.BackColor = System.Drawing.Color.Snow;
-            this.txtAFD.Enabled = false;
             this.txtAFD.Location = new System.Drawing.Point(677, 61);
             this.txtAFD.Multiline = true;
             this.txtAFD.Name = "txtAFD";
+            this.txtAFD.ReadOnly = true;
+            this.txtAFD.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtAFD.Size = new System.Drawing.Size(295, 290);
             this.txtAFD.TabIndex = 3;
             // 
@@ -110,6 +112,7 @@
             this.txtCadena.Name = "txtCadena";
             this.txtCadena.Size = new System.Drawing.Size(295, 20);
             this.txtCadena.TabIndex = 6;
+            this.txtCadena.TextChanged += new System.EventHandler(this.txtCadena_TextChanged);
             // 
             // label2
             // 
